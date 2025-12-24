@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Philosophy — The Ecclesiastes</title>
+
+  <style>
+    :root { --bg:#0b0f14; --card:#111827; --text:#e5e7eb; --muted:#a1a1aa; --line:#1f2937; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background:var(--bg); color:var(--text); }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px; }
+    header { display:flex; justify-content:space-between; align-items:center; }
+    nav a { color:var(--muted); text-decoration:none; margin-left:14px; }
+    nav a:hover { color:var(--text); }
+
+    .card { margin-top:40px; padding:36px; border:1px solid var(--line); border-radius:18px; background:rgba(17,24,39,.6); }
+    h1 { margin:0 0 16px; font-size:32px; }
+    h2 { margin:28px 0 10px; font-size:20px; }
+    p { margin:0 0 14px; color:var(--muted); font-size:17px; line-height:1.7; }
+
+    footer { margin-top:56px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div><strong>THE ECCLESIASTES</strong></div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="what-we-build.html">What We Build</a>
+        <a href="philosophy.html" class="active">Philosophy</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="card">
+      <h1>Our Philosophy</h1>
+
+      <p>
+        The Ecclesiastes was built on a simple belief: technology should serve purpose,
+        not noise. In a world obsessed with speed and trends, we choose clarity, structure,
+        and long-term thinking.
+      </p>
+
+      <h2>Wisdom Over Hype</h2>
+      <p>
+        We do not chase trends or fashionable tools. Every system we build is intentional,
+        stable, and designed to last. What matters is not how complex something looks,
+        but how well it serves its purpose over time.
+      </p>
+
+      <h2>Structure Creates Freedom</h2>
+      <p>
+        Strong digital systems reduce chaos. Clear layouts, simple flows, and clean design
+        give businesses confidence and users trust. When structure is right, growth becomes natural.
+      </p>
+
+      <h2>Technology as a Tool, Not an Identity</h2>
+      <p>
+        Tools change. Principles remain. We use modern technology and AI internally to
+        increase efficiency and precision, but the focus is always on outcomes, not tools.
+      </p>
+
+      <h2>Built for Longevity</h2>
+      <p>
+        The Ecclesiastes builds with tomorrow in mind. We value sustainability, maintainability,
+        and ownership. Our work is meant to grow with you, not trap you.
+      </p>
+    </section>
+
+    <footer>
+      © <span id="y"></span> The Ecclesiastes. All rights reserved.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

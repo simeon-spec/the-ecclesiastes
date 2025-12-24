@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — The Ecclesiastes</title>
+
+  <style>
+    :root { --bg:#0b0f14; --card:#111827; --text:#e5e7eb; --muted:#a1a1aa; --line:#1f2937; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background:var(--bg); color:var(--text); }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px; }
+    header { display:flex; justify-content:space-between; align-items:center; }
+    nav a { color:var(--muted); text-decoration:none; margin-left:14px; }
+    nav a:hover { color:var(--text); }
+
+    .card { margin-top:40px; padding:32px; border:1px solid var(--line); border-radius:18px; background:rgba(17,24,39,.6); display:grid; grid-template-columns: 220px 1fr; gap:24px; }
+    img { width:100%; border-radius:16px; border:1px solid var(--line); }
+    h1 { margin:0 0 12px; }
+    p { margin:0 0 10px; color:var(--muted); }
+    a { color:#e5e7eb; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+
+    footer { margin-top:56px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+
+    @media (max-width:760px){
+      .card{ grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div><strong>THE ECCLESIASTES</strong></div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="what-we-build.html">What We Build</a>
+        <a href="philosophy.html">Philosophy</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="card">
+      <img src="c:\Users\simeo\OneDrive\Pictures\MyPictures\Official3.jpeg" alt="Simeon Konteh">
+
+      <div>
+        <h1>Contact</h1>
+        <p>
+          The Ecclesiastes is led by Simeon Konteh — building intelligent business websites
+          with long-term thinking, structure, and modern technology.
+        </p>
+
+        <p><strong>Email:</strong> <a href="mailto:simeonkonteh@gmail.com">simeonkonteh@gmail.com</a></p>
+        <p><strong>Phone:</strong> +1 763 327 4296 (USA – Minnesota)</p>
+        <p><strong>LinkedIn:</strong>
+          <a href="https://linkedin.com/in/simeon-konteh-msia" target="_blank">
+            linkedin.com/in/simeon-konteh-msia
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="y"></span> The Ecclesiastes. All rights reserved.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
